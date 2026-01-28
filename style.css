@@ -81,7 +81,7 @@ body {
 .socials {
   display: flex;
   justify-content: center;
-  gap: 5 rem;
+  gap: 5rem;
 }
 
 .socials a {
@@ -99,4 +99,5 @@ body {
     flex-direction: column;
   }
 }
+
 
