@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: radial-gradient(circle at top, #3b2a1a, #1e1208);
+  color: #f5f1ea;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  max-width: 500px;
+  padding: 2.5rem 1.5rem;
+  text-align: center;
+}
+
+.logo {
+  height: 100%;
+  width: 50%;
+  margin-bottom: 1.2rem;
+}
+
+.tagline {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.1rem;
+  color: #d4af37;
+  margin-bottom: 1rem;
+}
+
+.description {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #e6dfd4;
+  margin-bottom: 1.8rem;
+}
+
+.launch-box {
+  display: inline-block;
+  border: 1px solid #d4af37;
+  padding: 0.5rem 1.2rem;
+  border-radius: 30px;
+  color: #d4af37;
+  margin-bottom: 1.8rem;
+  font-size: 0.9rem;
+}
+
+.signup-form {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.signup-form input {
+  flex: 1;
+  padding: 0.7rem;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+.signup-form button {
+  padding: 0.7rem 1.2rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #d4af37;
+  color: #1e1208;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.signup-form button:hover {
+  opacity: 0.9;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 1.5 rem;
+}
+
+.socials a {
+  color: #d4af37;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+@media (max-width: 480px) {
+  .tagline {
+    font-size: 1.8rem;
+  }
+
+  .signup-form {
+    flex-direction: column;
+  }
+}
